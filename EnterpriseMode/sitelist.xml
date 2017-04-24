@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<site-list version="6">
+  <created-by>
+    <tool>EMIESiteListManager</tool>
+    <version>10.0.14357.1004</version>
+    <date-created>04/24/2017 12:06:19</date-created>
+  </created-by>
+  <site url="ie.localhost.com">
+    <compat-mode>Default</compat-mode>
+    <open-in>IE11</open-in>
+  </site>
+  <site url="edge.localhost.com">
+    <compat-mode>IE8Enterprise</compat-mode>
+    <open-in>MSEdge</open-in>
+  </site>
+  <site url="compat.localhost.com">
+    <compat-mode>IE8Enterprise</compat-mode>
+    <open-in>IE11</open-in>
+  </site>
+</site-list>

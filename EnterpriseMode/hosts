@@ -1,0 +1,4 @@
+# localhost entries for testing Edge/IE co-work
+127.0.0.1       ie.localhost.com
+127.0.0.1       edge.localhost.com
+127.0.0.1       compat.localhost.com
