@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\MicrosoftEdge\Main\EnterpriseMode]
+"SiteList"="https://raw.githubusercontent.com/sbovo/EdgeIEWorkTogether/master/EnterpriseMode/sitelist.xml"
+
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Main\EnterpriseMode]
+"SiteList"="https://raw.githubusercontent.com/sbovo/EdgeIEWorkTogether/master/EnterpriseMode/sitelist.xml"

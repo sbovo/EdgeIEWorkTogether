@@ -1,4 +1,95 @@
 # localhost entries for testing Edge/IE co-work
-127.0.0.1       ie.localhost.com
-127.0.0.1       edge.localhost.com
-127.0.0.1       compat.localhost.com
+127.0.0.1       localhost.com
+127.0.0.1       intranet_urlnotin_enterprisemode.localhost.com
+127.0.0.1       urlnotin_enterprisemode.localhost.com
+
+
+
+
+
+127.0.0.1       enterprisemode_defaultmode_openinnone.localhost.com
+
+
+
+127.0.0.1       enterprisemode_defaultmode_openinie.localhost.com
+
+
+
+127.0.0.1       enterprisemode_defaultmode_openinedge.localhost.com
+
+
+
+127.0.0.1       enterprisemode_ie8_openinie.localhost.com
+
+
+
+127.0.0.1       enterprisemode_ie7_openinie.localhost.com
+
+
+
+127.0.0.1       enterprisemode_docmode11_openinie.localhost.com
+
+
+
+127.0.0.1       enterprisemode_docmode10_openinie.localhost.com
+
+
+
+127.0.0.1       enterprisemode_docmode9_openinie.localhost.com
+
+
+
+127.0.0.1       enterprisemode_docmode8_openinie.localhost.com
+
+
+
+127.0.0.1       enterprisemode_docmode7_openinie.localhost.com
+
+
+
+127.0.0.1       enterprisemode_docmode5_openinie.localhost.com
+
+
+
+127.0.0.1       intranet_enterprisemode_defaultmode_openinnone.localhost.com
+
+
+
+127.0.0.1       intranet_enterprisemode_defaultmode_openinie.localhost.com
+
+
+
+127.0.0.1       intranet_enterprisemode_defaultmode_openinedge.localhost.com
+
+
+
+127.0.0.1       intranet_enterprisemode_ie8_openinie.localhost.com
+
+
+
+127.0.0.1       intranet_enterprisemode_ie7_openinie.localhost.com
+
+
+
+127.0.0.1       intranet_enterprisemode_docmode11_openinie.localhost.com
+
+
+
+127.0.0.1       intranet_enterprisemode_docmode10_openinie.localhost.com
+
+
+
+127.0.0.1       intranet_enterprisemode_docmode9_openinie.localhost.com
+
+
+
+127.0.0.1       intranet_enterprisemode_docmode8_openinie.localhost.com
+
+
+
+127.0.0.1       intranet_enterprisemode_docmode7_openinie.localhost.com
+
+
+
+127.0.0.1       intranet_enterprisemode_docmode5_openinie.localhost.com
+
