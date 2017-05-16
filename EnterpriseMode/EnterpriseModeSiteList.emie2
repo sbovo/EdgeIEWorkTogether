@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<site-list version="21">
+<site-list version="13">
   <created-by>
     <tool>EMIESiteListManager</tool>
     <version>10.0.14357.1004</version>
-    <date-created>05/15/2017 22:46:26</date-created>
+    <date-created>05/15/2017 06:05:31</date-created>
   </created-by>
   <site url="enterprisemode_defaultmode_openinnone.localhost.com">
     <compat-mode>Default</compat-mode>
