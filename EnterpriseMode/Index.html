@@ -5,10 +5,12 @@
     <meta charset="utf-8" />
     <title>Edge and IE work together in the Enterprise</title>
     <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/4.1.0/css/fabric.min.css">
-    <script src="./Cookie.js" />
+    <script type="text/javascript" src="./Cookie.js" ></script>
 </head>
 <body>
-    <p id="cookieText">------------------------</p>
+    <input type="button" value="Create a cookie" onclick="CreateCookie();" />
+    <hr>
+    <div id="cookieText">------------------------</div>
     <ul>
         <li><a href='http://enterprisemode_defaultmode_openinnone.localhost.com'>enterprisemode_defaultmode_openinnone.localhost.com</a></li>
         <li><a href='http://enterprisemode_defaultmode_openinie.localhost.com'>enterprisemode_defaultmode_openinie.localhost.com</a></li>
@@ -36,4 +38,7 @@
         <li><a href='http://intranet_enterprisemode_docmode5_openinie.localhost.com'>intranet_enterprisemode_docmode5_openinie.localhost.com</a></li>
     </ul>
 </body>
+<script type="text/Javascript">
+    ReadCookie();
+</script>
 </html>
