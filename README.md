@@ -7,15 +7,24 @@ With Windows 10, we introduced Edge as the default navigator. To deal with legac
 
 *Note:* Enteprise list can be configured using GPO or registry directly.
 
-As an exemple, you will find in this project the **ActivateEnterpriseMode.reg** file that creates the 2 needed for activating the Enterprise mode both for IE and Edge.
+As an exemple, you will find in this project the **ActivateEnterpriseMode(Azure)?.reg** file that creates the 2 needed registry keys for activating the Enterprise mode both for IE and Edge.
 
-## Sitelist.xml
-The **sitelist.xml** provided create entries for subdomains of localhost.com. Each subdomain name is a self-description of the entry itself. 
+### Sitelist(Azure)?.xml
+The **sitelist(Azure)?.xml** provided create entries for subdomains of localhost.com. Each subdomain name is a self-description of the entry itself. 
 
 *For exemple:* enterprisemode_ie8_openinie.localhost.com means that the sitelist.xml entry is configured for this url to Enterprise Mode IE8 with open-in IE.
 
-## Host file
-In order to test browsing all urls *.localhost.com, you can copy/paste the content of the **hosts** file in the one located in C:\Windows\System32\drivers\etc\.
+### index(Azure)?.html
+The sample **index(Azure)?.html** just contains all links to facilitate navigation between urls. The file just have to be hosted on a local web server on the TCP port 80.
 
-## index.html
-The sample **index.html** just contains all links to facilitate navigation between urls. The file just have to be hosted on a local web server on the TCP port 80.
+### Intranet Zone
+All urls starting with "intranet" have to be added to the IE Intranet zone.
+
+## Local scenario
+For local usage, the **hosts** file allow tests for browsing all urls *.localhost.com. You can copy/paste the content of the file in the one located in C:\Windows\System32\drivers\etc\.
+
+##Azure scenario
+Extra steps have to be done for using the indexAzure.html on Azure Web Apps: 
+- Create a ressource group named "EdgeIEWorkTogether"
+- Create all Web Apps using the CreateAllWebAppsInAzure.ps1
+- Deploy the IndexAzure.html on these Web Apps (This step is not automatised)
